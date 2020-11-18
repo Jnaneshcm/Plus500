@@ -1,0 +1,101 @@
+2020-03-19 17:32:08,887 [main] INFO   LoginTestRunner(25) - Browser :: chrome
+2020-03-19 17:32:08,912 [main] INFO   LoginTestRunner(26) - Environment :: YCOM_L1
+2020-03-19 17:32:10,774 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-19 17:32:10,779 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(118) - Preference chrome=80 (valid until 2020-03-20 14:33:50)
+2020-03-19 17:32:10,780 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(601) - Detected Google Chrome version 80
+2020-03-19 17:32:10,784 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-19 17:32:10,790 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(118) - Preference chrome80=80.0.3987.106 (valid until 2020-03-20 14:33:51)
+2020-03-19 17:32:10,791 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(615) - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-03-19 17:32:10,793 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(536) - Managing chromedriver arch=64 version=80.0.3987.106 getLatest=false cache=false
+2020-03-19 17:32:10,793 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(868) - Checking if chromedriver exists in cache
+2020-03-19 17:32:10,795 [main] TRACE  io.github.bonigarcia.wdm.Downloader(116) - Target path C:\Users\jnanesh.m/.m2/repository/webdriver
+2020-03-19 17:32:10,829 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by chromedriver -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] 
+2020-03-19 17:32:10,830 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by 80.0.3987.106 -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] 
+2020-03-19 17:32:10,831 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by WIN -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] 
+2020-03-19 17:32:10,836 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-19 17:32:10,840 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-19 17:32:10,842 [main] DEBUG  i.g.bonigarcia.wdm.WebDriverManager(564) - Driver chromedriver 80.0.3987.106 found in cache
+2020-03-19 17:32:10,846 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(1113) - Exporting webdriver.chrome.driver as C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
+2020-03-19 17:32:22,140 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-19 17:32:22,142 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'To login to wellness regular environment' has started
+2020-03-19 17:32:25,991 [main] INFO   com.yodlee.core.base.CoreBasePage(1611) - succesfully sent the keys:: "Wr200" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (a2d6a67f90e909c783c2774165927103)] -> xpath: //*[@name='login']]
+2020-03-19 17:32:25,992 [main] INFO   com.yodlee.core.base.CoreBasePage(121) - Logical name : LoginPage.Username ---- Value Entered: Wr200
+2020-03-19 17:32:26,615 [main] INFO   com.yodlee.core.base.CoreBasePage(1611) - succesfully sent the keys:: "Yodlee@123" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (a2d6a67f90e909c783c2774165927103)] -> xpath: //*[@name='password']]
+2020-03-19 17:32:26,617 [main] INFO   com.yodlee.core.base.CoreBasePage(121) - Logical name : LoginPage.Password ---- Value Entered: Yodlee@123
+2020-03-19 17:32:27,235 [main] INFO   com.yodlee.core.base.CoreBasePage(1611) - succesfully sent the keys:: "10003700" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (a2d6a67f90e909c783c2774165927103)] -> xpath: //*[@name='app']]
+2020-03-19 17:32:27,237 [main] INFO   com.yodlee.core.base.CoreBasePage(121) - Logical name : LoginPage.FinApp ---- Value Entered: 10003700
+2020-03-19 17:32:31,233 [main] INFO   com.yodlee.core.base.CoreBasePage(145) - ---clicked LoginPage.Login
+2020-03-19 17:32:32,121 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-19 17:32:32,122 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'Add an aggregated account in application' has started
+2020-03-19 17:32:37,634 [main] INFO   com.yodlee.core.base.CoreBasePage(1553) - Clicking on element [By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']]
+2020-03-19 17:32:37,679 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 0 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:38,700 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 1 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:39,723 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 2 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:40,748 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 3 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:41,774 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 4 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:42,798 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 5 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:43,822 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 6 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:44,846 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 7 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:45,877 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 8 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:46,905 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 9 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:47,936 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 10 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:48,967 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 11 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:50,006 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 12 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:51,035 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 13 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:52,072 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 14 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:53,100 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 15 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:54,128 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 16 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:55,160 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 17 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:56,190 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 18 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:57,221 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 19 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:58,256 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 20 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:32:59,288 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 21 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:00,316 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 22 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:01,346 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 23 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:02,381 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 24 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:03,409 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 25 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:04,434 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 26 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:05,456 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 27 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:06,483 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 28 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:07,506 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 29 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:08,533 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 30 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:09,561 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 31 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:10,591 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 32 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:11,630 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 33 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:12,650 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 34 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:13,670 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 35 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:14,695 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 36 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:15,723 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 37 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:16,758 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 38 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:17,787 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 39 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:18,814 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 40 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:19,843 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 41 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:20,872 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 42 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:21,905 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 43 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:22,936 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 44 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:23,968 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 45 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:24,997 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 46 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:26,036 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 47 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:27,068 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 48 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:28,094 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 49 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:29,116 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 50 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:30,152 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 51 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:31,182 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 52 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:32,219 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 53 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:33,251 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 54 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:34,282 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 55 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:35,314 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 56 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:36,343 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 57 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:37,376 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 58 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:38,422 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 59 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:39,424 [main] ERROR  com.yodlee.core.base.CoreBasePage(1441) - Element is not present in DOM element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:33:40,789 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-19 17:33:40,790 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'Verify Dashboard' has started
+2020-03-19 17:33:49,771 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-19 17:33:49,773 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'verify fincheck disclaimer message in dashboard' has started
+2020-03-19 17:33:49,859 [main] INFO   com.yodlee.core.base.CoreBasePage(346) - TimeoutException: DashboardPage.FincheckDisclaimerMessage  is not shown in given time
+2020-03-19 17:33:49,861 [main] INFO   com.yodlee.core.base.CoreBasePage(71) - Logical name : DashboardPage.FincheckDisclaimerMessage ---- Expected Value : A digital assistant that organizes and measures your financial health. So you know exactly where you stand at any given time and what you should do next. ---- Actual Value : 
+2020-03-19 17:33:49,896 [main] INFO   com.yodlee.core.base.CoreBasePage(346) - TimeoutException: DashboardPage.FincheckDisclaimerMessage  is not shown in given time
+2020-03-19 17:33:49,953 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-19 17:33:49,955 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'verify accounts in the dashboard' has started
+2020-03-19 17:33:50,019 [main] ERROR  com.yodlee.core.base.CoreBasePage(1441) - Element is not present in DOM element:: By.xpath: //*[@autoid='accounts-container-level-low']//div[contains(@class,'account-details')]//span[@class='ellipsis']

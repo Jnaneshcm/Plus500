@@ -1,0 +1,57 @@
+2020-03-26 11:07:39,662 [main] INFO   LoginTestRunner(25) - Browser :: chrome
+2020-03-26 11:07:39,674 [main] INFO   LoginTestRunner(26) - Environment :: YCOM_L1
+2020-03-26 11:07:40,976 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-26 11:07:40,980 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(118) - Preference chrome=80 (valid until 2020-03-27 11:00:44)
+2020-03-26 11:07:40,981 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(601) - Detected Google Chrome version 80
+2020-03-26 11:07:40,984 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-26 11:07:40,986 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(118) - Preference chrome80=80.0.3987.106 (valid until 2020-03-27 11:00:44)
+2020-03-26 11:07:40,987 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(615) - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-03-26 11:07:40,988 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(536) - Managing chromedriver arch=64 version=80.0.3987.106 getLatest=false cache=false
+2020-03-26 11:07:40,990 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(868) - Checking if chromedriver exists in cache
+2020-03-26 11:07:40,990 [main] TRACE  io.github.bonigarcia.wdm.Downloader(116) - Target path C:\Users\jnanesh.m/.m2/repository/webdriver
+2020-03-26 11:07:41,013 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by chromedriver -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] 
+2020-03-26 11:07:41,014 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by 80.0.3987.106 -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] 
+2020-03-26 11:07:41,018 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by WIN -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] 
+2020-03-26 11:07:41,021 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-26 11:07:41,024 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-26 11:07:41,025 [main] DEBUG  i.g.bonigarcia.wdm.WebDriverManager(564) - Driver chromedriver 80.0.3987.106 found in cache
+2020-03-26 11:07:41,027 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(1113) - Exporting webdriver.chrome.driver as C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
+2020-03-26 11:07:49,686 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-26 11:07:49,687 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'To login to wellness regular environment' has started
+2020-03-26 11:07:51,570 [main] INFO   com.yodlee.core.base.CoreBasePage(1641) - succesfully sent the keys:: "Wr200" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (5d7827592689ce0645137de2224c1464)] -> xpath: //*[@name='login']]
+2020-03-26 11:07:51,571 [main] INFO   com.yodlee.core.base.CoreBasePage(117) - Logical name : LoginPage.Username ---- Value Entered: Wr200
+2020-03-26 11:07:51,858 [main] INFO   com.yodlee.core.base.CoreBasePage(1641) - succesfully sent the keys:: "Yodlee@123" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (5d7827592689ce0645137de2224c1464)] -> xpath: //*[@name='password']]
+2020-03-26 11:07:51,859 [main] INFO   com.yodlee.core.base.CoreBasePage(117) - Logical name : LoginPage.Password ---- Value Entered: Yodlee@123
+2020-03-26 11:07:52,150 [main] INFO   com.yodlee.core.base.CoreBasePage(1641) - succesfully sent the keys:: "10003700" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (5d7827592689ce0645137de2224c1464)] -> xpath: //*[@name='app']]
+2020-03-26 11:07:52,151 [main] INFO   com.yodlee.core.base.CoreBasePage(117) - Logical name : LoginPage.FinApp ---- Value Entered: 10003700
+2020-03-26 11:07:54,273 [main] INFO   com.yodlee.core.base.CoreBasePage(141) - ---clicked LoginPage.Login
+2020-03-26 11:07:54,776 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-26 11:07:54,777 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'Add an aggregated account in application' has started
+2020-03-26 11:08:00,307 [main] INFO   com.yodlee.core.base.CoreBasePage(1583) - Clicking on element [By.cssSelector: #link-account-button-persist]
+2020-03-26 11:08:00,380 [main] INFO   com.yodlee.core.base.CoreBasePage(788) - Scrolling element to middle...
+2020-03-26 11:08:01,479 [main] INFO   com.yodlee.core.base.CoreBasePage(1641) - succesfully sent the keys:: "Dag Site" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (5d7827592689ce0645137de2224c1464)] -> id: siteSearch]
+2020-03-26 11:08:01,480 [main] INFO   com.yodlee.core.base.CoreBasePage(117) - Logical name : LinkAccountPopup.siteSearchInputBox ---- Value Entered: Dag Site
+2020-03-26 11:08:01,503 [main] INFO   com.yodlee.core.base.CoreBasePage(1462) - Waiting for element to be present in DOM 0 seconds element:: By.cssSelector: .siteName
+2020-03-26 11:08:02,526 [main] INFO   com.yodlee.core.base.CoreBasePage(788) - Scrolling element to middle...
+2020-03-26 11:08:03,719 [main] INFO   com.yodlee.core.base.CoreBasePage(1641) - succesfully sent the keys:: "budget.site16441.1" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (5d7827592689ce0645137de2224c1464)] -> xpath: //input[@name="LOGIN" or @aria-label="Username"]]
+2020-03-26 11:08:03,719 [main] INFO   com.yodlee.core.base.CoreBasePage(117) - Logical name : LinkAccountPopup.usernameInputBox ---- Value Entered: budget.site16441.1
+2020-03-26 11:08:04,155 [main] INFO   com.yodlee.core.base.CoreBasePage(1641) - succesfully sent the keys:: "site16441.1" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (5d7827592689ce0645137de2224c1464)] -> xpath: //input[@name='PASSWORD' or @aria-label='Password']]
+2020-03-26 11:08:04,155 [main] INFO   com.yodlee.core.base.CoreBasePage(117) - Logical name : LinkAccountPopup.passwordInputBox ---- Value Entered: site16441.1
+2020-03-26 11:08:04,568 [main] INFO   com.yodlee.core.base.CoreBasePage(1641) - succesfully sent the keys:: "site16441.1" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (5d7827592689ce0645137de2224c1464)] -> xpath: //input[@name='Re-enter_PASSWORD' or @aria-label='Re-enter Password']]
+2020-03-26 11:08:04,569 [main] INFO   com.yodlee.core.base.CoreBasePage(117) - Logical name : LinkAccountPopup.re-EnterPasswordInputBox ---- Value Entered: site16441.1
+2020-03-26 11:08:04,783 [main] INFO   com.yodlee.core.base.CoreBasePage(141) - ---clicked LinkAccountPopup.sumitbutton
+2020-03-26 11:08:04,992 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-26 11:08:04,993 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'Verify Dashboard' has started
+2020-03-26 11:08:05,974 [main] INFO   com.yodlee.core.base.CoreBasePage(103) - Logical name : DashboardPage.header ---- Expected Value : #174271 ---- Actual Value : #174271
+2020-03-26 11:08:06,621 [main] INFO   com.yodlee.core.base.CoreBasePage(83) - Logical name : DashboardPage.Dashboard ---- Expected Value : ProximaNovaSemiBold ---- Actual Value : 24px / 40px ProximaNovaSemiBold
+2020-03-26 11:08:07,341 [main] INFO   com.yodlee.core.base.CoreBasePage(94) - Logical name : DashboardPage.Dashboard ---- Expected Value : #1e1d1c ---- Actual Value : #1e1d1c
+2020-03-26 11:08:08,005 [main] INFO   com.yodlee.core.base.CoreBasePage(71) - Logical name : DashboardPage.Dashboard ---- Expected Value : Dashboard ---- Actual Value : Dashboard
+2020-03-26 11:08:08,366 [main] INFO   com.yodlee.core.base.CoreBasePage(71) - Logical name : DashboardPage.AmountLeftToSpend ---- Expected Value : $75,819.72 ---- Actual Value : $75,874.50
+2020-03-26 11:08:09,220 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-26 11:08:09,221 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'verify fincheck disclaimer message in dashboard' has started
+2020-03-26 11:08:09,946 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-26 11:08:09,946 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'verify accounts in the dashboard' has started
+2020-03-26 11:08:10,851 [main] INFO   com.yodlee.core.base.CoreBasePage(1462) - Waiting for element to be present in DOM 0 seconds element:: By.xpath: //*[@autoid='accounts-container-level-low']//div[contains(@class,'account-details')]//span[@class='ellipsis']
+2020-03-26 11:08:11,882 [main] INFO   com.yodlee.core.base.CoreBasePage(1462) - Waiting for element to be present in DOM 1 seconds element:: By.xpath: //*[@autoid='accounts-container-level-low']//div[contains(@class,'account-details')]//span[@class='ellipsis']
+2020-03-26 11:08:12,912 [main] INFO   com.yodlee.core.base.CoreBasePage(1462) - Waiting for element to be present in DOM 2 seconds element:: By.xpath: //*[@autoid='accounts-container-level-low']//div[contains(@class,'account-details')]//span[@class='ellipsis']
+2020-03-26 11:08:13,936 [main] INFO   com.yodlee.core.base.CoreBasePage(788) - Scrolling element to middle...

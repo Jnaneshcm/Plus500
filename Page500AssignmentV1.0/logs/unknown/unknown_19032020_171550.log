@@ -1,0 +1,37 @@
+2020-03-19 17:15:50,278 [main] INFO   LoginTestRunner(25) - Browser :: chrome
+2020-03-19 17:15:50,303 [main] INFO   LoginTestRunner(26) - Environment :: YCOM_L1
+2020-03-19 17:15:52,062 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-19 17:15:52,068 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(118) - Preference chrome=80 (valid until 2020-03-20 14:33:50)
+2020-03-19 17:15:52,069 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(601) - Detected Google Chrome version 80
+2020-03-19 17:15:52,073 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-19 17:15:52,078 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(118) - Preference chrome80=80.0.3987.106 (valid until 2020-03-20 14:33:51)
+2020-03-19 17:15:52,079 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(615) - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-03-19 17:15:52,080 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(536) - Managing chromedriver arch=64 version=80.0.3987.106 getLatest=false cache=false
+2020-03-19 17:15:52,081 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(868) - Checking if chromedriver exists in cache
+2020-03-19 17:15:52,085 [main] TRACE  io.github.bonigarcia.wdm.Downloader(116) - Target path C:\Users\jnanesh.m/.m2/repository/webdriver
+2020-03-19 17:15:52,118 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by chromedriver -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] 
+2020-03-19 17:15:52,118 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by 80.0.3987.106 -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] 
+2020-03-19 17:15:52,119 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by WIN -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] 
+2020-03-19 17:15:52,122 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-19 17:15:52,126 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-19 17:15:52,127 [main] DEBUG  i.g.bonigarcia.wdm.WebDriverManager(564) - Driver chromedriver 80.0.3987.106 found in cache
+2020-03-19 17:15:52,131 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(1113) - Exporting webdriver.chrome.driver as C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
+2020-03-19 17:16:01,920 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-19 17:16:01,922 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'To login to wellness regular environment' has started
+2020-03-19 17:16:06,847 [main] INFO   com.yodlee.core.base.CoreBasePage(1611) - succesfully sent the keys:: "wr6" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (50c2f5a289344d6f87f8354a00e89117)] -> xpath: //*[@name='login']]
+2020-03-19 17:16:06,849 [main] INFO   com.yodlee.core.base.CoreBasePage(121) - Logical name : LoginPage.Username ---- Value Entered: wr6
+2020-03-19 17:16:07,456 [main] INFO   com.yodlee.core.base.CoreBasePage(1611) - succesfully sent the keys:: "Yodlee@123" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (50c2f5a289344d6f87f8354a00e89117)] -> xpath: //*[@name='password']]
+2020-03-19 17:16:07,457 [main] INFO   com.yodlee.core.base.CoreBasePage(121) - Logical name : LoginPage.Password ---- Value Entered: Yodlee@123
+2020-03-19 17:16:08,084 [main] INFO   com.yodlee.core.base.CoreBasePage(1611) - succesfully sent the keys:: "10003700" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (50c2f5a289344d6f87f8354a00e89117)] -> xpath: //*[@name='app']]
+2020-03-19 17:16:08,085 [main] INFO   com.yodlee.core.base.CoreBasePage(121) - Logical name : LoginPage.FinApp ---- Value Entered: 10003700
+2020-03-19 17:16:08,718 [main] INFO   com.yodlee.core.base.CoreBasePage(145) - ---clicked LoginPage.Login
+2020-03-19 17:16:09,614 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-19 17:16:09,616 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'Add an aggregated account in application' has started
+2020-03-19 17:16:15,087 [main] INFO   com.yodlee.core.base.CoreBasePage(1553) - Clicking on element [By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']]
+2020-03-19 17:16:15,141 [main] INFO   com.yodlee.core.base.CoreBasePage(1432) - Waiting for element to be present in DOM 0 seconds element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:16:22,179 [main] ERROR  com.yodlee.core.base.CoreBasePage(1441) - Element is not present in DOM element:: By.xpath: //*[@autoid='finCheck_btn_LinkMoreAcc']
+2020-03-19 17:16:28,336 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-19 17:16:28,337 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'Verify Dashboard' has started
+2020-03-19 17:16:40,440 [main] INFO   com.yodlee.core.base.CoreBasePage(346) - TimeoutException: DashboardPage.header  is not shown in given time
+2020-03-19 17:16:40,442 [main] INFO   com.yodlee.core.base.CoreBasePage(103) - Logical name : DashboardPage.header ---- Expected Value : #174271 ---- Actual Value : 
+2020-03-19 17:16:46,478 [main] INFO   com.yodlee.core.base.CoreBasePage(346) - TimeoutException: DashboardPage.header  is not shown in given time

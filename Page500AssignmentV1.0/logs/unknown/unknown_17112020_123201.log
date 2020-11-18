@@ -1,0 +1,32 @@
+2020-11-17 12:32:01,660 [main] INFO   LoginTestRunner(25) - Browser :: chrome
+2020-11-17 12:32:01,666 [main] INFO   LoginTestRunner(26) - Environment :: YCOM_L1
+2020-11-17 12:32:02,108 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-11-17 12:32:02,109 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(118) - Preference chrome=86 (valid until 2020-11-17 22:00:33)
+2020-11-17 12:32:02,110 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(601) - Detected Google Chrome version 86
+2020-11-17 12:32:02,111 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-11-17 12:32:02,115 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(118) - Preference chrome86=86.0.4240.22 (valid until 2020-11-17 22:00:33)
+2020-11-17 12:32:02,116 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(615) - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
+2020-11-17 12:32:02,116 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(536) - Managing chromedriver arch=64 version=86.0.4240.22 getLatest=false cache=false
+2020-11-17 12:32:02,116 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(868) - Checking if chromedriver exists in cache
+2020-11-17 12:32:02,117 [main] TRACE  io.github.bonigarcia.wdm.Downloader(116) - Target path C:\Users\jnanesh.m/.m2/repository/webdriver
+2020-11-17 12:32:02,127 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by chromedriver -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\84.0.4147.30\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\84.0.4147.30\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe] 
+2020-11-17 12:32:02,128 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by 86.0.4240.22 -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\84.0.4147.30\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe] 
+2020-11-17 12:32:02,128 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by WIN -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe] 
+2020-11-17 12:32:02,129 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-11-17 12:32:02,131 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-11-17 12:32:02,131 [main] DEBUG  i.g.bonigarcia.wdm.WebDriverManager(564) - Driver chromedriver 86.0.4240.22 found in cache
+2020-11-17 12:32:02,132 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(1113) - Exporting webdriver.chrome.driver as C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-11-17 12:32:06,233 [main] INFO   c.p.core.base.Page500CoreBasePage(31) - **********************************************
+2020-11-17 12:32:06,234 [main] INFO   c.p.core.base.Page500CoreBasePage(32) - Scenario :: 'Validate Selling and Buying Price' has started
+2020-11-17 12:32:08,294 [main] INFO   c.p.core.base.Page500CoreBasePage(153) - ---clicked LoginPage.DemoMode
+2020-11-17 12:32:08,828 [main] INFO   c.p.core.base.Page500CoreBasePage(153) - ---clicked LoginPage.LoginTab
+2020-11-17 12:32:09,417 [main] INFO   c.p.core.base.Page500CoreBasePage(132) - succesfully sent the keys:: "cm.jnanesh@gmail.com" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (56a7ccca666da15b79703a2626d9a9b9)] -> xpath: //input[@id='email']]
+2020-11-17 12:32:09,417 [main] INFO   c.p.core.base.Page500CoreBasePage(124) - Logical name : LoginPage.UserEmail ---- Value Entered: cm.jnanesh@gmail.com
+2020-11-17 12:32:09,774 [main] INFO   c.p.core.base.Page500CoreBasePage(132) - succesfully sent the keys:: "plus500_jna" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (56a7ccca666da15b79703a2626d9a9b9)] -> xpath: //input[@id='password']]
+2020-11-17 12:32:09,775 [main] INFO   c.p.core.base.Page500CoreBasePage(124) - Logical name : LoginPage.Password ---- Value Entered: plus500_jna
+2020-11-17 12:32:10,016 [main] INFO   c.p.core.base.Page500CoreBasePage(153) - ---clicked LoginPage.Login
+2020-11-17 12:32:10,032 [main] INFO   c.p.core.base.Page500CoreBasePage(68) - Expected Value : Plus500 WebTrader | Leading CFD Platform | Online Trading ---- Actual Value : Plus500 WebTrader | Leading CFD Platform | Online Trading
+2020-11-17 12:32:15,841 [main] INFO   c.p.core.base.Page500CoreBasePage(132) - succesfully sent the keys:: "GBP/USD" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (56a7ccca666da15b79703a2626d9a9b9)] -> xpath: //input[@id='main-search-input']]
+2020-11-17 12:32:15,842 [main] INFO   c.p.core.base.Page500CoreBasePage(124) - Logical name : HomePage.Search ---- Value Entered: GBP/USD
+2020-11-17 12:32:16,228 [main] INFO   c.p.core.base.Page500CoreBasePage(177) - ---clicked HomePage.Search
+2020-11-17 12:33:56,351 [main] INFO   c.p.core.base.Page500CoreBasePage(81) - Logical name : HomePage.Sell ---- Expected Min : 1.2 ---- Expected Max : 1.4Actual Value : 1.32194

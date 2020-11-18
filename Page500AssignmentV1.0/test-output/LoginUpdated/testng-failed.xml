@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LoginUpdated]" parallel="none">
+  <parameter name="environment" value="YCOM_L1"/>
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="LoginUpdated">
+    <classes>
+      <class name="com.yodlee.wellness.runner.LoginTestRunner"/>
+    </classes>
+  </test> <!-- LoginUpdated -->
+  <test name="LoginUpdated(failed)" parallel="none">
+    <classes>
+      <class name="com.yodlee.wellness.runner.LoginTestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="beforeSuite"/>
+          <include name="feature" invocation-numbers="1"/>
+          <include name="tearDownClass"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.yodlee.wellness.runner.LoginTestRunner -->
+    </classes>
+  </test> <!-- LoginUpdated(failed) -->
+</suite> <!-- Failed suite [LoginUpdated] -->

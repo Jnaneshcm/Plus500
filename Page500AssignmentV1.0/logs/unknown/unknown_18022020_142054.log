@@ -1,0 +1,4 @@
+2020-02-18 14:20:54,677 [main] INFO   WellnessTestRunner(24) - Browser :: chrome
+2020-02-18 14:20:54,684 [main] INFO   WellnessTestRunner(25) - Environment :: YCOM_L1
+2020-02-18 14:20:55,151 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(615) - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-02-18 14:20:55,168 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(1113) - Exporting webdriver.chrome.driver as C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe

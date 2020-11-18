@@ -1,0 +1,50 @@
+{
+	"pages": {
+		"LoginPage": {
+			"elements": {
+			
+				"UserEmail": {
+					"Locator type": "xpath",
+					"value": "//input[@id='email']"
+				},
+				"DemoMode": {
+					"Locator type": "xpath",
+					"value": "//em[@data-win-bind='innerHTML: demoButtonDesc']"
+				},
+				"LoginTab": {
+					"Locator type": "xpath",
+					"value": "//a[normalize-space()='Log in']"
+				},
+				
+				
+				
+				"Password": {
+					"Locator type": "xpath",
+					"value": "//input[@id='password']"
+				},
+				"Login": {
+					"Locator type": "xpath",
+					"value": "//button[normalize-space()='Log in']"
+				}
+			}
+		},
+		"HomePage": {
+			"elements": {
+				"Search": {
+					"Locator type": "xpath",
+					"value": "//input[@id='main-search-input']"
+				},
+				"Sell": {
+					"Locator type": "xpath",
+					"value": "(//span[@class='value'])[1]"
+				},
+				"Buy": {
+					"Locator type": "xpath",
+					"value": "(//span[@class='value'])[2]"
+				}			
+			}
+	
+		}
+	}
+
+}

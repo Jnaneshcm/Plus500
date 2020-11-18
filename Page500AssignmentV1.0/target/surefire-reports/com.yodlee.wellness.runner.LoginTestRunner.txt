@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.yodlee.wellness.runner.LoginTestRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 51.576 sec <<< FAILURE! - in com.yodlee.wellness.runner.LoginTestRunner
+feature(com.yodlee.wellness.runner.LoginTestRunner)  Time elapsed: 5.636 sec  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: Element values are not matching for element :: DashboardPage.accountNames with locator :: By.xpath: //*[@autoid='accounts-container-level-low']//div[contains(@class,'account-details')]//span[@class='ellipsis']: lists don't have the same size expected [5] but found [9]
+Caused by: java.lang.AssertionError: Element values are not matching for element :: DashboardPage.accountNames with locator :: By.xpath: //*[@autoid='accounts-container-level-low']//div[contains(@class,'account-details')]//span[@class='ellipsis']: lists don't have the same size expected [5] but found [9]
+

@@ -1,0 +1,116 @@
+2020-03-18 14:19:35,647 [main] INFO   LoginTestRunner(25) - Browser :: chrome
+2020-03-18 14:19:35,663 [main] INFO   LoginTestRunner(26) - Environment :: YCOM_L1
+2020-03-18 14:19:37,078 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-18 14:19:37,094 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(118) - Preference chrome=80 (valid until 2020-03-19 13:35:24)
+2020-03-18 14:19:37,097 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(601) - Detected Google Chrome version 80
+2020-03-18 14:19:37,098 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-18 14:19:37,098 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(118) - Preference chrome80=80.0.3987.106 (valid until 2020-03-19 13:35:24)
+2020-03-18 14:19:37,098 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(615) - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-03-18 14:19:37,098 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(536) - Managing chromedriver arch=64 version=80.0.3987.106 getLatest=false cache=false
+2020-03-18 14:19:37,098 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(868) - Checking if chromedriver exists in cache
+2020-03-18 14:19:37,098 [main] TRACE  io.github.bonigarcia.wdm.Downloader(116) - Target path C:\Users\jnanesh.m/.m2/repository/webdriver
+2020-03-18 14:19:37,131 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by chromedriver -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] 
+2020-03-18 14:19:37,131 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by 80.0.3987.106 -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] 
+2020-03-18 14:19:37,131 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by WIN -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] 
+2020-03-18 14:19:37,131 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-18 14:19:37,131 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-18 14:19:37,131 [main] DEBUG  i.g.bonigarcia.wdm.WebDriverManager(564) - Driver chromedriver 80.0.3987.106 found in cache
+2020-03-18 14:19:37,147 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(1113) - Exporting webdriver.chrome.driver as C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
+2020-03-18 14:19:47,476 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-18 14:19:47,476 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'To login to wellness regular environment' has started
+2020-03-18 14:19:50,925 [main] INFO   com.yodlee.core.base.CoreBasePage(85) - Logical name : LoginPage.Username ---- Value Entered: wr6
+2020-03-18 14:19:51,516 [main] INFO   com.yodlee.core.base.CoreBasePage(85) - Logical name : LoginPage.Password ---- Value Entered: Yodlee@123
+2020-03-18 14:19:52,077 [main] INFO   com.yodlee.core.base.CoreBasePage(85) - Logical name : LoginPage.FinApp ---- Value Entered: 10003700
+2020-03-18 14:19:54,348 [main] INFO   com.yodlee.core.base.CoreBasePage(95) - ---clicked LoginPage.Login
+2020-03-18 14:19:56,113 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-18 14:19:56,115 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'Add an aggregated account in application' has started
+2020-03-18 14:20:03,217 [main] INFO   com.yodlee.core.base.CoreBasePage(1437) - Clicking on element [By.cssSelector: #link-account-button-persist]
+2020-03-18 14:20:03,317 [main] INFO   com.yodlee.core.base.CoreBasePage(642) - Scrolling element to middle...
+2020-03-18 14:20:05,810 [main] INFO   com.yodlee.core.base.CoreBasePage(85) - Logical name : LinkAccountPopup.siteSearchInputBox ---- Value Entered: Dag Site
+2020-03-18 14:20:05,855 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 0 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:06,899 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 1 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:07,937 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 2 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:08,968 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 3 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:10,002 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 4 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:11,026 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 5 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:12,076 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 6 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:13,117 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 7 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:14,154 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 8 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:15,178 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 9 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:16,196 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 10 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:17,229 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 11 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:18,233 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 12 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:19,251 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 13 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:20,288 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 14 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:21,340 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 15 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:22,367 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 16 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:23,393 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 17 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:24,444 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 18 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:25,480 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 19 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:26,534 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 20 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:27,589 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 21 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:28,633 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 22 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:29,673 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 23 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:30,708 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 24 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:31,746 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 25 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:32,796 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 26 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:33,830 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 27 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:34,869 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 28 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:35,902 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 29 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:36,936 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 30 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:37,976 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 31 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:39,010 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 32 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:40,082 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 33 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:41,115 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 34 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:42,150 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 35 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:43,190 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 36 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:44,222 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 37 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:45,254 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 38 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:46,329 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 39 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:47,369 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 40 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:48,418 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 41 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:49,473 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 42 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:50,524 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 43 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:51,558 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 44 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:52,598 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 45 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:53,633 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 46 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:54,669 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 47 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:55,710 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 48 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:56,744 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 49 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:57,776 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 50 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:58,818 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 51 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:20:59,851 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 52 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:21:00,888 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 53 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:21:01,923 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 54 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:21:02,966 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 55 seconds element:: By.cssSelector: .siteName
+2020-03-18 14:21:04,067 [main] INFO   com.yodlee.core.base.CoreBasePage(642) - Scrolling element to middle...
+2020-03-18 14:21:06,179 [main] INFO   com.yodlee.core.base.CoreBasePage(85) - Logical name : LinkAccountPopup.usernameInputBox ---- Value Entered: budget.site16441.1
+2020-03-18 14:21:06,861 [main] INFO   com.yodlee.core.base.CoreBasePage(85) - Logical name : LinkAccountPopup.passwordInputBox ---- Value Entered: site16441.1
+2020-03-18 14:21:07,533 [main] INFO   com.yodlee.core.base.CoreBasePage(85) - Logical name : LinkAccountPopup.re-EnterPasswordInputBox ---- Value Entered: site16441.1
+2020-03-18 14:21:08,067 [main] INFO   com.yodlee.core.base.CoreBasePage(95) - ---clicked LinkAccountPopup.sumitbutton
+2020-03-18 14:21:08,133 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 0 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-18 14:21:09,186 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 1 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-18 14:21:10,230 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 2 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-18 14:21:11,273 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 3 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-18 14:21:12,299 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 4 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-18 14:21:13,361 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 5 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-18 14:21:14,392 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 6 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-18 14:21:15,413 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 7 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-18 14:21:16,471 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 8 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-18 14:21:17,496 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 9 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-18 14:21:18,552 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 10 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-18 14:21:19,577 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 11 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-18 14:21:20,596 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 12 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-18 14:21:21,621 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 13 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-18 14:21:22,667 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 14 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-18 14:21:29,741 [main] ERROR  com.yodlee.core.base.CoreBasePage(1325) - Element is not present in DOM element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-18 14:21:33,922 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-18 14:21:33,925 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'Verify Dashboard' has started
+2020-03-18 14:21:46,101 [main] INFO   com.yodlee.core.base.CoreBasePage(230) - TimeoutException: DashboardPage.header  is not shown in given time
+2020-03-18 14:21:46,101 [main] INFO   com.yodlee.core.base.CoreBasePage(70) - Logical name : DashboardPage.header ---- Expected Value : Dashboard ---- Actual Value : 
+2020-03-18 14:21:50,159 [main] INFO   com.yodlee.core.base.CoreBasePage(230) - TimeoutException: DashboardPage.header  is not shown in given time
+2020-03-18 14:21:54,235 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-18 14:21:54,235 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'verify fincheck disclaimer message in dashboard' has started
+2020-03-18 14:22:06,447 [main] INFO   com.yodlee.core.base.CoreBasePage(230) - TimeoutException: DashboardPage.FincheckDisclaimerMessage  is not shown in given time
+2020-03-18 14:22:06,447 [main] INFO   com.yodlee.core.base.CoreBasePage(70) - Logical name : DashboardPage.FincheckDisclaimerMessage ---- Expected Value : A digital assistant that organizes and measures your financial health. So you know exactly where you stand at any given time and what you should do next. ---- Actual Value : 
+2020-03-18 14:22:12,550 [main] INFO   com.yodlee.core.base.CoreBasePage(230) - TimeoutException: DashboardPage.FincheckDisclaimerMessage  is not shown in given time

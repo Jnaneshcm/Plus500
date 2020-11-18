@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="28601" started-at="2020-11-17T15:25:26Z" finished-at="2020-11-17T15:25:55Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.page500.assignment.runner.LoginTestRunner@543c6f6d]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="28601" started-at="2020-11-17T15:25:26Z" finished-at="2020-11-17T15:25:55Z">
+      <class name="com.page500.assignment.runner.LoginTestRunner">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:com.page500.assignment.runner.LoginTestRunner@543c6f6d]" name="beforeSuite" is-config="true" duration-ms="3999" started-at="2020-11-17T20:55:22Z" finished-at="2020-11-17T20:55:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YCOM_L1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.page500.assignment.runner.LoginTestRunner@543c6f6d]" name="setUpClass" is-config="true" duration-ms="206" started-at="2020-11-17T20:55:26Z" finished-at="2020-11-17T20:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.page500.assignment.runner.LoginTestRunner@543c6f6d]" name="feature" duration-ms="28107" started-at="2020-11-17T20:55:26Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-11-17T20:55:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login.feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.page500.assignment.runner.LoginTestRunner@543c6f6d]" name="tearDownClass" is-config="true" duration-ms="232" started-at="2020-11-17T20:55:54Z" finished-at="2020-11-17T20:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.page500.assignment.runner.LoginTestRunner@543c6f6d]" name="afterSuite" is-config="true" duration-ms="93" started-at="2020-11-17T20:55:55Z" finished-at="2020-11-17T20:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.page500.assignment.runner.LoginTestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

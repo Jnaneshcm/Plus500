@@ -1,0 +1,27 @@
+2020-11-16 22:40:31,008 [main] INFO   LoginTestRunner(25) - Browser :: chrome
+2020-11-16 22:40:31,021 [main] INFO   LoginTestRunner(26) - Environment :: YCOM_L1
+2020-11-16 22:40:32,157 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-11-16 22:40:32,160 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(118) - Preference chrome=86 (valid until 2020-11-17 22:00:33)
+2020-11-16 22:40:32,160 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(601) - Detected Google Chrome version 86
+2020-11-16 22:40:32,163 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-11-16 22:40:32,167 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(118) - Preference chrome86=86.0.4240.22 (valid until 2020-11-17 22:00:33)
+2020-11-16 22:40:32,167 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(615) - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
+2020-11-16 22:40:32,168 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(536) - Managing chromedriver arch=64 version=86.0.4240.22 getLatest=false cache=false
+2020-11-16 22:40:32,168 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(868) - Checking if chromedriver exists in cache
+2020-11-16 22:40:32,169 [main] TRACE  io.github.bonigarcia.wdm.Downloader(116) - Target path C:\Users\jnanesh.m/.m2/repository/webdriver
+2020-11-16 22:40:32,189 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by chromedriver -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\84.0.4147.30\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\84.0.4147.30\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe] 
+2020-11-16 22:40:32,190 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by 86.0.4240.22 -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\81.0.4044.138\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\84.0.4147.30\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\85.0.4183.87\chromedriver.exe, C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe] 
+2020-11-16 22:40:32,190 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by WIN -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe] 
+2020-11-16 22:40:32,192 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-11-16 22:40:32,194 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-11-16 22:40:32,195 [main] DEBUG  i.g.bonigarcia.wdm.WebDriverManager(564) - Driver chromedriver 86.0.4240.22 found in cache
+2020-11-16 22:40:32,196 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(1113) - Exporting webdriver.chrome.driver as C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-11-16 22:40:37,918 [main] INFO   com.page500.core.base.CoreBasePage(31) - **********************************************
+2020-11-16 22:40:37,920 [main] INFO   com.page500.core.base.CoreBasePage(32) - Scenario :: 'Validate Selling and Buying Price' has started
+2020-11-16 22:40:40,952 [main] INFO   com.page500.core.base.CoreBasePage(141) - ---clicked LoginPage.DemoMode
+2020-11-16 22:40:41,344 [main] INFO   com.page500.core.base.CoreBasePage(141) - ---clicked LoginPage.LoginTab
+2020-11-16 22:40:42,146 [main] INFO   com.page500.core.base.CoreBasePage(1641) - succesfully sent the keys:: "cm.jnanesh@gmail.com" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (e5e64f2e77b99369449d43e815710dd2)] -> xpath: //input[@id='email']]
+2020-11-16 22:40:42,147 [main] INFO   com.page500.core.base.CoreBasePage(117) - Logical name : LoginPage.UserEmail ---- Value Entered: cm.jnanesh@gmail.com
+2020-11-16 22:40:42,653 [main] INFO   com.page500.core.base.CoreBasePage(1641) - succesfully sent the keys:: "plus500_jna" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (e5e64f2e77b99369449d43e815710dd2)] -> xpath: //input[@id='password']]
+2020-11-16 22:40:42,654 [main] INFO   com.page500.core.base.CoreBasePage(117) - Logical name : LoginPage.Password ---- Value Entered: plus500_jna
+2020-11-16 22:40:43,098 [main] INFO   com.page500.core.base.CoreBasePage(141) - ---clicked LoginPage.Login

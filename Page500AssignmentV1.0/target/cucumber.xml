@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="27.925824">
+<testcase classname="Login.feature" name="Validate Selling and Buying Price" time="27.925824">
+<system-out><![CDATA[Given User is on "LoginPage"................................................passed
+And User clicks on the button "DemoMode"....................................passed
+And User clicks on the button "LoginTab"....................................passed
+When User enter the value in the text box "UserEmail" "cm.jnanesh@gmail.com".passed
+When User enter the value in the text box "Password" "plus500_jna"..........passed
+And User clicks on the button "Login".......................................passed
+Then User is on "HomePage"..................................................passed
+Then User Verifies the page title "Plus500 WebTrader | Leading CFD Platform | Online Trading".passed
+When User enter the value in the text box "Search" "GBP/USD"................passed
+Then User Press Enter "Search"..............................................passed
+Then User Validate "Sell" Price with the Threshold "1.2" "1.4"..............passed
+Then User Validate "Buy" Price with the Threshold "1.2" "1.4"...............passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43147" started-at="2020-03-16T05:31:04Z" finished-at="2020-03-16T05:31:47Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yodlee.wellness.runner.LoginTestRunner@32a068d1]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="43147" started-at="2020-03-16T05:31:04Z" finished-at="2020-03-16T05:31:47Z">
+      <class name="com.yodlee.wellness.runner.LoginTestRunner">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String)[pri:0, instance:com.yodlee.wellness.runner.LoginTestRunner@32a068d1]" name="beforeSuite" is-config="true" duration-ms="4261" started-at="2020-03-16T11:00:59Z" finished-at="2020-03-16T11:01:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YCOM_L1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.yodlee.wellness.runner.LoginTestRunner@32a068d1]" name="setUpClass" is-config="true" duration-ms="169" started-at="2020-03-16T11:01:04Z" finished-at="2020-03-16T11:01:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yodlee.wellness.runner.LoginTestRunner@32a068d1]" name="feature" duration-ms="3625" started-at="2020-03-16T11:01:04Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-16T11:01:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login.feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yodlee.wellness.runner.LoginTestRunner@32a068d1]" name="feature" duration-ms="30723" started-at="2020-03-16T11:01:07Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-16T11:01:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Add an aggregated account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yodlee.wellness.runner.LoginTestRunner@32a068d1]" name="feature" duration-ms="2404" started-at="2020-03-16T11:01:38Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-16T11:01:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Add an aggregated account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yodlee.wellness.runner.LoginTestRunner@32a068d1]" name="feature" duration-ms="3063" started-at="2020-03-16T11:01:41Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-16T11:01:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Add an aggregated account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.yodlee.wellness.runner.LoginTestRunner@32a068d1]" name="feature" duration-ms="2751" started-at="2020-03-16T11:01:44Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-16T11:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Add an aggregated account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.yodlee.wellness.runner.LoginTestRunner@32a068d1]" name="tearDownClass" is-config="true" duration-ms="341" started-at="2020-03-16T11:01:46Z" finished-at="2020-03-16T11:01:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.yodlee.wellness.runner.LoginTestRunner@32a068d1]" name="afterSuite" is-config="true" duration-ms="2313" started-at="2020-03-16T11:01:47Z" finished-at="2020-03-16T11:01:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.yodlee.wellness.runner.LoginTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

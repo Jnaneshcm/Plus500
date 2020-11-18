@@ -1,0 +1,80 @@
+2020-03-16 11:00:59,860 [main] INFO   LoginTestRunner(25) - Browser :: chrome
+2020-03-16 11:00:59,865 [main] INFO   LoginTestRunner(26) - Environment :: YCOM_L1
+2020-03-16 11:01:00,413 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-16 11:01:00,415 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(118) - Preference chrome=80 (valid until 2020-03-17 10:35:32)
+2020-03-16 11:01:00,415 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(601) - Detected Google Chrome version 80
+2020-03-16 11:01:00,416 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-16 11:01:00,421 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(118) - Preference chrome80=80.0.3987.106 (valid until 2020-03-17 10:35:32)
+2020-03-16 11:01:00,421 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(615) - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-03-16 11:01:00,421 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(536) - Managing chromedriver arch=64 version=80.0.3987.106 getLatest=false cache=false
+2020-03-16 11:01:00,422 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(868) - Checking if chromedriver exists in cache
+2020-03-16 11:01:00,422 [main] TRACE  io.github.bonigarcia.wdm.Downloader(116) - Target path C:\Users\kongara.sravan/.m2/repository/webdriver
+2020-03-16 11:01:00,433 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by chromedriver -- input list [C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\78.0.3904.105\chromedriver.exe, C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\78.0.3904.11\chromedriver.exe, C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\78.0.3904.70\chromedriver.exe, C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe, C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe, C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\80.0.3987.16\chromedriver.exe, C:\Users\kongara.sravan\.m2\repository\webdriver\geckodriver\win64\0.26.0\geckodriver.exe] -- output list [C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\78.0.3904.105\chromedriver.exe, C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\78.0.3904.11\chromedriver.exe, C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\78.0.3904.70\chromedriver.exe, C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe, C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe, C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\80.0.3987.16\chromedriver.exe] 
+2020-03-16 11:01:00,433 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by 80.0.3987.106 -- input list [C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\78.0.3904.105\chromedriver.exe, C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\78.0.3904.11\chromedriver.exe, C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\78.0.3904.70\chromedriver.exe, C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe, C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe, C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\80.0.3987.16\chromedriver.exe] -- output list [C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] 
+2020-03-16 11:01:00,433 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by WIN -- input list [C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] -- output list [C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] 
+2020-03-16 11:01:00,434 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-16 11:01:00,435 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-16 11:01:00,435 [main] DEBUG  i.g.bonigarcia.wdm.WebDriverManager(564) - Driver chromedriver 80.0.3987.106 found in cache
+2020-03-16 11:01:00,436 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(1113) - Exporting webdriver.chrome.driver as C:\Users\kongara.sravan\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
+2020-03-16 11:01:04,453 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-16 11:01:04,453 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'To login to wellness regular environment' has started
+2020-03-16 11:01:05,465 [main] INFO   com.yodlee.core.base.CoreBasePage(85) - Logical name : LoginPage.Username ---- Value Entered: wr6
+2020-03-16 11:01:05,618 [main] INFO   com.yodlee.core.base.CoreBasePage(85) - Logical name : LoginPage.Password ---- Value Entered: Yodlee@123
+2020-03-16 11:01:05,755 [main] INFO   com.yodlee.core.base.CoreBasePage(85) - Logical name : LoginPage.FinApp ---- Value Entered: 10003700
+2020-03-16 11:01:07,654 [main] INFO   com.yodlee.core.base.CoreBasePage(95) - ---clicked LoginPage.Login
+2020-03-16 11:01:07,965 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-16 11:01:07,965 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'Add an aggregated account in application' has started
+2020-03-16 11:01:13,125 [main] INFO   com.yodlee.core.base.CoreBasePage(1437) - Clicking on element [By.cssSelector: #link-account-button-persist]
+2020-03-16 11:01:13,151 [main] INFO   com.yodlee.core.base.CoreBasePage(642) - Scrolling element to middle...
+2020-03-16 11:01:13,480 [main] INFO   com.yodlee.core.base.CoreBasePage(1437) - Clicking on element [By.id: siteSearch]
+2020-03-16 11:01:13,496 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 0 seconds element:: By.id: siteSearch
+2020-03-16 11:01:14,518 [main] INFO   com.yodlee.core.base.CoreBasePage(642) - Scrolling element to middle...
+2020-03-16 11:01:14,837 [main] INFO   com.yodlee.core.base.CoreBasePage(1476) - succesfully sent the keys:: "Dag Site" to the input box of element:: By.id: siteSearch
+2020-03-16 11:01:14,854 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 0 seconds element:: By.cssSelector: .siteName
+2020-03-16 11:01:15,876 [main] INFO   com.yodlee.core.base.CoreBasePage(642) - Scrolling element to middle...
+2020-03-16 11:01:16,164 [main] INFO   com.yodlee.core.base.CoreBasePage(1437) - Clicking on element [By.xpath: //input[@name="LOGIN" or @aria-label="Username"]]
+2020-03-16 11:01:16,198 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 0 seconds element:: By.xpath: //input[@name="LOGIN" or @aria-label="Username"]
+2020-03-16 11:01:17,221 [main] INFO   com.yodlee.core.base.CoreBasePage(642) - Scrolling element to middle...
+2020-03-16 11:01:17,499 [main] INFO   com.yodlee.core.base.CoreBasePage(1476) - succesfully sent the keys:: "budget.site16441.1" to the input box of element:: By.xpath: //input[@name="LOGIN" or @aria-label="Username"]
+2020-03-16 11:01:17,500 [main] INFO   com.yodlee.core.base.CoreBasePage(1437) - Clicking on element [By.xpath: //input[@name='PASSWORD' or @aria-label='Password']]
+2020-03-16 11:01:17,527 [main] INFO   com.yodlee.core.base.CoreBasePage(642) - Scrolling element to middle...
+2020-03-16 11:01:17,772 [main] INFO   com.yodlee.core.base.CoreBasePage(1476) - succesfully sent the keys:: "site16441.1" to the input box of element:: By.xpath: //input[@name='PASSWORD' or @aria-label='Password']
+2020-03-16 11:01:17,774 [main] INFO   com.yodlee.core.base.CoreBasePage(1437) - Clicking on element [By.xpath: //input[@name='Re-enter_PASSWORD' or @aria-label='Re-enter Password']]
+2020-03-16 11:01:17,800 [main] INFO   com.yodlee.core.base.CoreBasePage(642) - Scrolling element to middle...
+2020-03-16 11:01:18,034 [main] INFO   com.yodlee.core.base.CoreBasePage(1476) - succesfully sent the keys:: "site16441.1" to the input box of element:: By.xpath: //input[@name='Re-enter_PASSWORD' or @aria-label='Re-enter Password']
+2020-03-16 11:01:18,035 [main] INFO   com.yodlee.core.base.CoreBasePage(1437) - Clicking on element [By.xpath: //*[contains(@class,'submit-button') and not(@aria-disabled='true')]]
+2020-03-16 11:01:18,064 [main] INFO   com.yodlee.core.base.CoreBasePage(642) - Scrolling element to middle...
+2020-03-16 11:01:18,281 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 0 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:19,294 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 1 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:20,305 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 2 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:21,318 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 3 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:22,329 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 4 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:23,340 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 5 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:24,350 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 6 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:25,361 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 7 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:26,372 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 8 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:27,382 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 9 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:28,393 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 10 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:29,405 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 11 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:30,415 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 12 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:31,427 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 13 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:32,438 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 14 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:33,449 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 15 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:34,460 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 16 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:35,472 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 17 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:36,484 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 18 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:37,495 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 19 seconds element:: By.xpath: //div[@role='alert' and contains(.,'Congratulations! Your accounts have been linked')]
+2020-03-16 11:01:38,517 [main] INFO   com.yodlee.core.base.CoreBasePage(642) - Scrolling element to middle...
+2020-03-16 11:01:38,689 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-16 11:01:38,689 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'Verify Dashboard' has started
+2020-03-16 11:01:39,672 [main] INFO   com.yodlee.core.base.CoreBasePage(70) - Logical name : DashboardPage.header ---- Expected Value : Dashboard ---- Actual Value : Dashboard
+2020-03-16 11:01:40,686 [main] INFO   com.yodlee.core.base.CoreBasePage(70) - Logical name : DashboardPage.AmountLeftToSpend ---- Expected Value : $65,509 .56 ---- Actual Value : $65,509 .56
+2020-03-16 11:01:40,869 [main] INFO   com.yodlee.core.base.CoreBasePage(70) - Logical name : DashboardPage.InvetmentTotal ---- Expected Value : $1,331,807,520.00 ---- Actual Value : $1,331,807,520.00
+2020-03-16 11:01:41,092 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-16 11:01:41,092 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'verify fincheck disclaimer message in dashboard' has started
+2020-03-16 11:01:43,933 [main] INFO   com.yodlee.core.base.CoreBasePage(70) - Logical name : DashboardPage.FincheckDisclaimerMessage ---- Expected Value : A digital assistant that organizes and measures your financial health. So you know exactly where you stand at any given time and what you should do next. ---- Actual Value : A digital assistant that organizes and measures your financial health. So you know exactly where you stand at any given time and what you should do next.
+2020-03-16 11:01:44,155 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-16 11:01:44,155 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'verify accounts in the dashboard' has started
+2020-03-16 11:01:44,559 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 0 seconds element:: By.xpath: //*[@autoid='accounts-container-level-low']//div[contains(@class,'account-details')]//span[@class='ellipsis']
+2020-03-16 11:01:45,621 [main] INFO   com.yodlee.core.base.CoreBasePage(1316) - Waiting for element to be present in DOM 1 seconds element:: By.xpath: //*[@autoid='accounts-container-level-low']//div[contains(@class,'account-details')]//span[@class='ellipsis']
+2020-03-16 11:01:46,646 [main] INFO   com.yodlee.core.base.CoreBasePage(642) - Scrolling element to middle...

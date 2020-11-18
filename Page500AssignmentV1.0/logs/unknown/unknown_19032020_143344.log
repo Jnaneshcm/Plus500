@@ -1,0 +1,152 @@
+2020-03-19 14:33:44,946 [main] INFO   LoginTestRunner(25) - Browser :: chrome
+2020-03-19 14:33:44,971 [main] INFO   LoginTestRunner(26) - Environment :: YCOM_L1
+2020-03-19 14:33:47,812 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-19 14:33:47,819 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(93) - Removing preference chrome=80 (expired on 2020-03-19 13:35:24)
+2020-03-19 14:33:47,829 [main] DEBUG  io.github.bonigarcia.wdm.Shell(55) - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+2020-03-19 14:33:49,735 [main] DEBUG  io.github.bonigarcia.wdm.Shell(57) - Result: Version=80.0.3987.122
+2020-03-19 14:33:49,736 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(601) - Detected Google Chrome version 80
+2020-03-19 14:33:49,741 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-19 14:33:49,743 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(93) - Removing preference chrome80=80.0.3987.106 (expired on 2020-03-19 13:35:24)
+2020-03-19 14:33:49,748 [main] DEBUG  i.g.bonigarcia.wdm.WebDriverManager(685) - Getting driver version for chrome80 from online versions.properties
+2020-03-19 14:33:49,749 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(719) - Reading online version.properties to find out driver version
+2020-03-19 14:33:49,798 [main] DEBUG  o.a.h.c.protocol.RequestAddCookies(122) - CookieSpec selected: standard
+2020-03-19 14:33:49,821 [main] DEBUG  o.a.h.c.protocol.RequestAuthCache(76) - Auth cache not set in the context
+2020-03-19 14:33:49,827 [main] DEBUG  o.a.h.i.c.PoolingHttpClientConnectionManager(249) - Connection request: [route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-03-19 14:33:49,886 [main] DEBUG  o.a.h.i.c.PoolingHttpClientConnectionManager(282) - Connection leased: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-03-19 14:33:49,895 [main] DEBUG  o.a.h.impl.execchain.MainClientExec(234) - Opening connection {s}->https://raw.githubusercontent.com:443
+2020-03-19 14:33:49,954 [main] DEBUG  o.a.h.i.c.DefaultHttpClientConnectionOperator(138) - Connecting to raw.githubusercontent.com/151.101.152.133:443
+2020-03-19 14:33:49,956 [main] DEBUG  o.a.h.c.s.SSLConnectionSocketFactory(335) - Connecting socket to raw.githubusercontent.com/151.101.152.133:443 with timeout 0
+2020-03-19 14:33:50,415 [main] DEBUG  o.a.h.c.s.SSLConnectionSocketFactory(388) - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-03-19 14:33:50,417 [main] DEBUG  o.a.h.c.s.SSLConnectionSocketFactory(389) - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2020-03-19 14:33:50,418 [main] DEBUG  o.a.h.c.s.SSLConnectionSocketFactory(393) - Starting handshake
+2020-03-19 14:33:50,692 [main] DEBUG  o.a.h.c.s.SSLConnectionSocketFactory(423) - Secure session established
+2020-03-19 14:33:50,693 [main] DEBUG  o.a.h.c.s.SSLConnectionSocketFactory(424) -  negotiated protocol: TLSv1.2
+2020-03-19 14:33:50,694 [main] DEBUG  o.a.h.c.s.SSLConnectionSocketFactory(425) -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2020-03-19 14:33:50,695 [main] DEBUG  o.a.h.c.s.SSLConnectionSocketFactory(433) -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+2020-03-19 14:33:50,697 [main] DEBUG  o.a.h.c.s.SSLConnectionSocketFactory(442) -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+2020-03-19 14:33:50,698 [main] DEBUG  o.a.h.c.s.SSLConnectionSocketFactory(446) -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+2020-03-19 14:33:50,702 [main] DEBUG  o.a.h.i.c.DefaultHttpClientConnectionOperator(145) - Connection established 192.168.0.6:59792<->151.101.152.133:443
+2020-03-19 14:33:50,704 [main] DEBUG  o.a.h.i.c.DefaultManagedHttpClientConnection(90) - http-outgoing-0: set socket timeout to 30000
+2020-03-19 14:33:50,706 [main] DEBUG  o.a.h.impl.execchain.MainClientExec(255) - Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2020-03-19 14:33:50,707 [main] DEBUG  o.a.h.impl.execchain.MainClientExec(260) - Target auth state: UNCHALLENGED
+2020-03-19 14:33:50,711 [main] DEBUG  o.a.h.impl.execchain.MainClientExec(266) - Proxy auth state: UNCHALLENGED
+2020-03-19 14:33:50,717 [main] DEBUG  org.apache.http.headers(135) - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2020-03-19 14:33:50,719 [main] DEBUG  org.apache.http.headers(138) - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.6
+2020-03-19 14:33:50,719 [main] DEBUG  org.apache.http.headers(138) - http-outgoing-0 >> Connection: keep-alive
+2020-03-19 14:33:50,720 [main] DEBUG  org.apache.http.headers(138) - http-outgoing-0 >> Host: raw.githubusercontent.com
+2020-03-19 14:33:50,721 [main] DEBUG  org.apache.http.headers(138) - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-03-19 14:33:50,722 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]"
+2020-03-19 14:33:50,723 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.6[\r][\n]"
+2020-03-19 14:33:50,725 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2020-03-19 14:33:50,726 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+2020-03-19 14:33:50,728 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-03-19 14:33:50,729 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 >> "[\r][\n]"
+2020-03-19 14:33:50,771 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-03-19 14:33:50,773 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+2020-03-19 14:33:50,774 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+2020-03-19 14:33:50,775 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+2020-03-19 14:33:50,777 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-03-19 14:33:50,779 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+2020-03-19 14:33:50,780 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-03-19 14:33:50,781 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "ETag: W/"c76a3a1d7900b6acff7a598a73ed7b2043ba55ce08ccfebd0ae3c6f13dcd996e"[\r][\n]"
+2020-03-19 14:33:50,783 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+2020-03-19 14:33:50,784 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "X-Geo-Block-List:[\r][\n]"
+2020-03-19 14:33:50,785 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "Via: 1.1 varnish (Varnish/6.0)[\r][\n]"
+2020-03-19 14:33:50,787 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2020-03-19 14:33:50,788 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "X-GitHub-Request-Id: A8B4:0A6C:7F6E7:88DF8:5E730E1E[\r][\n]"
+2020-03-19 14:33:50,789 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "Content-Length: 748[\r][\n]"
+2020-03-19 14:33:50,790 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+2020-03-19 14:33:50,791 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "Date: Thu, 19 Mar 2020 09:03:50 GMT[\r][\n]"
+2020-03-19 14:33:50,792 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+2020-03-19 14:33:50,793 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2020-03-19 14:33:50,794 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "X-Served-By: cache-bom18223-BOM[\r][\n]"
+2020-03-19 14:33:50,796 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "X-Cache: HIT, HIT[\r][\n]"
+2020-03-19 14:33:50,797 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "X-Cache-Hits: 2, 1[\r][\n]"
+2020-03-19 14:33:50,799 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "X-Timer: S1584608631.767913,VS0,VE1[\r][\n]"
+2020-03-19 14:33:50,802 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2020-03-19 14:33:50,805 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-03-19 14:33:50,807 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "X-Fastly-Request-ID: b3eedfcb08ca7b6daf628ac88eb4ba863e9c8765[\r][\n]"
+2020-03-19 14:33:50,809 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "Expires: Thu, 19 Mar 2020 09:08:50 GMT[\r][\n]"
+2020-03-19 14:33:50,811 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "Source-Age: 191[\r][\n]"
+2020-03-19 14:33:50,819 [main] DEBUG  org.apache.http.wire(72) - http-outgoing-0 << "[\r][\n]"
+2020-03-19 14:33:50,823 [main] DEBUG  org.apache.http.wire(86) - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x95][0xcb][0x8e][0xda]0[0x14][0x86][0xf7]<[0x85][0xa5][0xd9][0xb4][0xb][0x1c][0xdf]b'H[0xde][0xf4][0xba][0x1a]u[0xd1][0xbe]@[0x0][0x3][0xd1][0x84][0x18]9ah[0xfb][0xf4]=[0xbe]N@[0xad][0xd4][0xe5][0xff]q|[0xfc][0xcb]'[0xff][0xe1][0x9][0xfd]8[0xf5][0x13]:[0xf4][0x83]A;;[0xce]]?Nh>[0x19][0xf4]2[0xda][0xdb][0x88]^[0x8d][0x9b]z[0xb][0xe8]`[0x1d][0xda][0xbb][0xde]k[0xf4]n[0xdb][0x8f][0x9d][0xfb][0xf5][0x1e][0xe][0x9c]/[0xdd][0xdc]o[0xe1][0xec][0xad][0x9f]O[0xe1][0xdc][0xce]:g[0xa6][0x8b][0x1d][0xf7][0xfd]xD[go[0x93]q[0xb9][0xcf]j[0xf5][0x84]>D[0xb4]A_[0xad]=[0xc2][0xc9][0x8f]'g[0xcf][0x6][0xad][0xd1][0xa7][0xd0]~[0x83]v[0x1][0xc4][0xcb][0xa0][0xfe][0xbb][0xbd][0xba][0x9d][0xd9][0xa0][0xd3]<_6U[0xb5][0xfc][0x15][0x7][0xd1]_[0xcf][0xd8][0xba]c[0xb5][0x7][0xc3][0x83][0xed][0xf6][0xd3]*[0xd6]4T7[0x14][0x13],[0x88][0x10]X[0xb6][0x99][0x12][0xdd][0x10][0xa0][0xbc]m[0x14][0xa6]D&[0xac]Z[0xad][0xda][0x80]E[0x8d]y[0xa1][0x8d]VM[0xa0]D@q[0x9d][0x8b][0x95]V[0xca][0xe3]F[0xd6][0xd0]>S[0xa9][0x95][0xc][0x94][0xb4][0x98][0xb2][0xd2][0xa3][0xd6][0xaa][0xf6]X)[0x82][0xe9][[0xb5][0xd0]J[0x4][0xcc]Z\j[0xb9]V[0xdc]C[0xd9]p,[0x9b][0xdc][0x98]i[0x86]E[0xa9][0xa1]w[0x8a]x[0x95][0x8d][0xc9][0xd6]+[0x91][0xce][0xc9][0xc6]+[0x96][0x95][0xf2][0x8a]f%[0xbd][0xca][0xd6]e[\r][0x8a][0xe7][0xfb][0xa4][0xf0]J[0xe5]J[0xee]U[0xbe]]z/[0xbc][0xdc][0xe7][0xbd][0xf0]r[0x9f][0xf7][0xc2][0xf9][0xdd][0x90][0x9f][0xed][0xef]~[0x18]:[0xf4][0xa5]w[0xe6]`.[0xc6]|4[0xbb][0x17][0xfb][0xd7])O0[0xe6]#|O[0xd7]-[0x86]/[0xac]:[0xc7][0x16][0xd5][0xe2]@[0xe5][0xcc]`[0xba][0xc9]L[0xab]C[0xec][0xab][0xb8]&[0x98][0xc1][0xeb][0x17][0xc0][0x1e][0x1]}[0x4][0xe4][0x1][0xc0][0xe3][0xdd][0xf7][0x80][0xf7][0x3][0x0][0xb3][0xcb]M[0xa5][0xf2][0x0][0xa6]V[0x80]|[0x4][0xf5]#[0x10][0x1e][0xc0]L[0xcb][0x91][0xe0]t[0x9][0x82]S[0xb6][0xa8][0x8]N[0xe1][0xcb]-G[0x82][0xd3][0x5][0xa8][0x83][0xd3]%[0x8]N[0x97] 8][0x82][0xe0][0x14]>[0xfc][0xdc][0xb4][0xe]N=Xf[0xf2][0xdb][0xc5][0xb8]n1$[0xeb][0xf5][0xff][0xc])[0x14]N[0xf6]0[0xdf]:g[0xaa][0xa0]r8[0xe3][0xf1][0xb7][0x91][0x85][0x1f][0xe1])[0x97]1$[0xab]H!B%[0x85][0xaa]M[0x10][0x2]TB[0xd8][0xa8][0x4]!>%[0x82][0x94][0xe5][0xf3][0x90][0x9f][0xb7][0x8]r[0x96]j[0xd9]2[0x81]$[0xd7][0xa6][0xe4][0x84][0x8b][0xe1]EC[0x8c][0xa2]H[0xb9][0x89]"[0xc5]&[0x8a][0x94][0x9a](Rh[0xa2]H[0x99][0x89]"E&[0x8a][0x94][0x98](B`x[0xba]'[0xe5]%[0xfc]"[0xbc][0x83][0xec]Xx[0x7]<[0x19][0x15][0xde][0x1]K[0x8f]![0xbc][0x3][0x10][0xcb][0xa1]=[0xf7];g[0xfd][0xdb][0xa3][0xcf][0xfb][0xe3]r[0x93][0x9e]'[0x3][0xe0][0x9f][0xe3][0xdb][0x9b]W3[0xf8][0xcb][0xf1]9w[0x8][0x81]3[0xe3][0xfa]:U[0x85][0xad]}[0x93]j[0xb6]v[0x98][0xaa][0x9b][0xd9][0xa6]q[0xae]<-+[0x96]J[0xbf][0x6][0x2][0xca][0xfb]UR,e@e[0xb7]R[0xff][0xd9][0x7][0x92][0xf6]*[0xf3]3[0x8c]$[0xad]T[0xc6][0xb]I[0xeb][0x94][0xc2]*L5i[0x93]R[0xde][0xc2][0x97][0x1b][0x8e][0x9][0xa1]/[0xce][0xac][0xe1]Ok[0xee][0x86][0xc1][0xec]#dZb[0xaa]hr$[0xa8][0xae]1[0x95][0xac]m[0xe3][0xaf]D[0xc3].[0xaf][0x89][0xe4]A[0xf2]FsX[0xcb][0xbc][0x8d][0x92][0xf9][0xa1][0xc2][0xa6]o[0xa2]uF4[0x5][0xc9]`S[0xfe][0x1]4d5[0x87]*[0x7][0x0][0x0]"
+2020-03-19 14:33:50,841 [main] DEBUG  org.apache.http.headers(124) - http-outgoing-0 << HTTP/1.1 200 OK
+2020-03-19 14:33:50,843 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+2020-03-19 14:33:50,845 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+2020-03-19 14:33:50,849 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+2020-03-19 14:33:50,851 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << X-Content-Type-Options: nosniff
+2020-03-19 14:33:50,852 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << X-Frame-Options: deny
+2020-03-19 14:33:50,854 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+2020-03-19 14:33:50,856 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << ETag: W/"c76a3a1d7900b6acff7a598a73ed7b2043ba55ce08ccfebd0ae3c6f13dcd996e"
+2020-03-19 14:33:50,862 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << Cache-Control: max-age=300
+2020-03-19 14:33:50,864 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << X-Geo-Block-List:
+2020-03-19 14:33:50,866 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << Via: 1.1 varnish (Varnish/6.0)
+2020-03-19 14:33:50,867 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << Content-Encoding: gzip
+2020-03-19 14:33:50,869 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << X-GitHub-Request-Id: A8B4:0A6C:7F6E7:88DF8:5E730E1E
+2020-03-19 14:33:50,870 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << Content-Length: 748
+2020-03-19 14:33:50,871 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << Accept-Ranges: bytes
+2020-03-19 14:33:50,873 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << Date: Thu, 19 Mar 2020 09:03:50 GMT
+2020-03-19 14:33:50,876 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << Via: 1.1 varnish
+2020-03-19 14:33:50,878 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << Connection: keep-alive
+2020-03-19 14:33:50,880 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << X-Served-By: cache-bom18223-BOM
+2020-03-19 14:33:50,882 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << X-Cache: HIT, HIT
+2020-03-19 14:33:50,884 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << X-Cache-Hits: 2, 1
+2020-03-19 14:33:50,885 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << X-Timer: S1584608631.767913,VS0,VE1
+2020-03-19 14:33:50,886 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << Vary: Authorization,Accept-Encoding
+2020-03-19 14:33:50,889 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << Access-Control-Allow-Origin: *
+2020-03-19 14:33:50,896 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << X-Fastly-Request-ID: b3eedfcb08ca7b6daf628ac88eb4ba863e9c8765
+2020-03-19 14:33:50,899 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << Expires: Thu, 19 Mar 2020 09:08:50 GMT
+2020-03-19 14:33:50,900 [main] DEBUG  org.apache.http.headers(127) - http-outgoing-0 << Source-Age: 191
+2020-03-19 14:33:50,924 [main] DEBUG  o.a.h.impl.execchain.MainClientExec(284) - Connection can be kept alive indefinitely
+2020-03-19 14:33:50,947 [main] DEBUG  o.a.h.i.c.PoolingHttpClientConnectionManager(314) - Connection [id: 0][route: {s}->https://raw.githubusercontent.com:443] can be kept alive indefinitely
+2020-03-19 14:33:50,948 [main] DEBUG  o.a.h.i.c.PoolingHttpClientConnectionManager(320) - Connection released: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-03-19 14:33:50,949 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(615) - Using chromedriver 80.0.3987.106 (since Google Chrome 80 is installed in your machine)
+2020-03-19 14:33:50,957 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(66) - Storing preference chrome=80 (valid until 2020-03-20 14:33:50)
+2020-03-19 14:33:50,960 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(536) - Managing chromedriver arch=64 version=80.0.3987.106 getLatest=false cache=false
+2020-03-19 14:33:50,961 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(868) - Checking if chromedriver exists in cache
+2020-03-19 14:33:50,964 [main] TRACE  io.github.bonigarcia.wdm.Downloader(116) - Target path C:\Users\jnanesh.m/.m2/repository/webdriver
+2020-03-19 14:33:51,012 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by chromedriver -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] 
+2020-03-19 14:33:51,014 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by 80.0.3987.106 -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] 
+2020-03-19 14:33:51,014 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(920) - Filter cache by WIN -- input list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] -- output list [C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe] 
+2020-03-19 14:33:51,018 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-19 14:33:51,024 [main] DEBUG  i.github.bonigarcia.wdm.Preferences(66) - Storing preference chrome80=80.0.3987.106 (valid until 2020-03-20 14:33:51)
+2020-03-19 14:33:51,029 [main] TRACE  i.g.bonigarcia.wdm.WebDriverManager(634) - Using preferences true
+2020-03-19 14:33:51,030 [main] DEBUG  i.g.bonigarcia.wdm.WebDriverManager(564) - Driver chromedriver 80.0.3987.106 found in cache
+2020-03-19 14:33:51,034 [main] INFO   i.g.bonigarcia.wdm.WebDriverManager(1113) - Exporting webdriver.chrome.driver as C:\Users\jnanesh.m\.m2\repository\webdriver\chromedriver\win32\80.0.3987.106\chromedriver.exe
+2020-03-19 14:34:08,252 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-19 14:34:08,254 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'To login to wellness regular environment' has started
+2020-03-19 14:34:13,561 [main] INFO   com.yodlee.core.base.CoreBasePage(1494) - succesfully sent the keys:: "wr6" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (40ffb5bd362be0ee2ab42710cb139942)] -> xpath: //*[@name='login']]
+2020-03-19 14:34:13,562 [main] INFO   com.yodlee.core.base.CoreBasePage(85) - Logical name : LoginPage.Username ---- Value Entered: wr6
+2020-03-19 14:34:14,260 [main] INFO   com.yodlee.core.base.CoreBasePage(1494) - succesfully sent the keys:: "Yodlee@123" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (40ffb5bd362be0ee2ab42710cb139942)] -> xpath: //*[@name='password']]
+2020-03-19 14:34:14,261 [main] INFO   com.yodlee.core.base.CoreBasePage(85) - Logical name : LoginPage.Password ---- Value Entered: Yodlee@123
+2020-03-19 14:34:14,970 [main] INFO   com.yodlee.core.base.CoreBasePage(1494) - succesfully sent the keys:: "10003700" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (40ffb5bd362be0ee2ab42710cb139942)] -> xpath: //*[@name='app']]
+2020-03-19 14:34:14,971 [main] INFO   com.yodlee.core.base.CoreBasePage(85) - Logical name : LoginPage.FinApp ---- Value Entered: 10003700
+2020-03-19 14:34:18,678 [main] INFO   com.yodlee.core.base.CoreBasePage(95) - ---clicked LoginPage.Login
+2020-03-19 14:34:19,857 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-19 14:34:19,858 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'Add an aggregated account in application' has started
+2020-03-19 14:34:26,670 [main] INFO   com.yodlee.core.base.CoreBasePage(1436) - Clicking on element [By.cssSelector: #link-account-button-persist]
+2020-03-19 14:34:26,735 [main] INFO   com.yodlee.core.base.CoreBasePage(641) - Scrolling element to middle...
+2020-03-19 14:34:29,289 [main] INFO   com.yodlee.core.base.CoreBasePage(1494) - succesfully sent the keys:: "Dag Site" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (40ffb5bd362be0ee2ab42710cb139942)] -> id: siteSearch]
+2020-03-19 14:34:29,290 [main] INFO   com.yodlee.core.base.CoreBasePage(85) - Logical name : LinkAccountPopup.siteSearchInputBox ---- Value Entered: Dag Site
+2020-03-19 14:34:29,345 [main] INFO   com.yodlee.core.base.CoreBasePage(1315) - Waiting for element to be present in DOM 0 seconds element:: By.cssSelector: .siteName
+2020-03-19 14:34:30,405 [main] INFO   com.yodlee.core.base.CoreBasePage(641) - Scrolling element to middle...
+2020-03-19 14:34:34,470 [main] INFO   com.yodlee.core.base.CoreBasePage(1494) - succesfully sent the keys:: "budget.site16441.1" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (40ffb5bd362be0ee2ab42710cb139942)] -> xpath: //input[@name="LOGIN" or @aria-label="Username"]]
+2020-03-19 14:34:34,472 [main] INFO   com.yodlee.core.base.CoreBasePage(85) - Logical name : LinkAccountPopup.usernameInputBox ---- Value Entered: budget.site16441.1
+2020-03-19 14:34:35,488 [main] INFO   com.yodlee.core.base.CoreBasePage(1494) - succesfully sent the keys:: "site16441.1" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (40ffb5bd362be0ee2ab42710cb139942)] -> xpath: //input[@name='PASSWORD' or @aria-label='Password']]
+2020-03-19 14:34:35,489 [main] INFO   com.yodlee.core.base.CoreBasePage(85) - Logical name : LinkAccountPopup.passwordInputBox ---- Value Entered: site16441.1
+2020-03-19 14:34:36,526 [main] INFO   com.yodlee.core.base.CoreBasePage(1494) - succesfully sent the keys:: "site16441.1" to the input box of element:: [[ChromeDriver: chrome on WINDOWS (40ffb5bd362be0ee2ab42710cb139942)] -> xpath: //input[@name='Re-enter_PASSWORD' or @aria-label='Re-enter Password']]
+2020-03-19 14:34:36,528 [main] INFO   com.yodlee.core.base.CoreBasePage(85) - Logical name : LinkAccountPopup.re-EnterPasswordInputBox ---- Value Entered: site16441.1
+2020-03-19 14:34:36,985 [main] INFO   com.yodlee.core.base.CoreBasePage(95) - ---clicked LinkAccountPopup.sumitbutton
+2020-03-19 14:35:20,944 [main] INFO   com.yodlee.core.base.CoreBasePage(70) - Logical name : LinkAccountPopup.accountAddedSuccessfully ---- Expected Value : Congratulations! Your accounts have been linked. ---- Actual Value : Congratulations! Your accounts have been linked.
+2020-03-19 14:35:21,832 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-19 14:35:21,834 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'Verify Dashboard' has started
+2020-03-19 14:35:24,901 [main] INFO   com.yodlee.core.base.CoreBasePage(70) - Logical name : DashboardPage.header ---- Expected Value : Dashboard ---- Actual Value : Dashboard
+2020-03-19 14:35:28,277 [main] INFO   com.yodlee.core.base.CoreBasePage(70) - Logical name : DashboardPage.AmountLeftToSpend ---- Expected Value : $65,564 .34 ---- Actual Value : $65,619 .12
+2020-03-19 14:35:30,045 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-19 14:35:30,046 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'verify fincheck disclaimer message in dashboard' has started
+2020-03-19 14:35:37,369 [main] INFO   com.yodlee.core.base.CoreBasePage(70) - Logical name : DashboardPage.FincheckDisclaimerMessage ---- Expected Value : A digital assistant that organizes and measures your financial health. So you know exactly where you stand at any given time and what you should do next. ---- Actual Value : A digital assistant that organizes and measures your financial health. So you know exactly where you stand at any given time and what you should do next.
+2020-03-19 14:35:38,186 [main] INFO   com.yodlee.core.base.CoreBasePage(31) - **********************************************
+2020-03-19 14:35:38,187 [main] INFO   com.yodlee.core.base.CoreBasePage(32) - Scenario :: 'verify accounts in the dashboard' has started
+2020-03-19 14:35:39,731 [main] INFO   com.yodlee.core.base.CoreBasePage(1315) - Waiting for element to be present in DOM 0 seconds element:: By.xpath: //*[@autoid='accounts-container-level-low']//div[contains(@class,'account-details')]//span[@class='ellipsis']
+2020-03-19 14:35:40,784 [main] INFO   com.yodlee.core.base.CoreBasePage(1315) - Waiting for element to be present in DOM 1 seconds element:: By.xpath: //*[@autoid='accounts-container-level-low']//div[contains(@class,'account-details')]//span[@class='ellipsis']
+2020-03-19 14:35:42,663 [main] INFO   com.yodlee.core.base.CoreBasePage(641) - Scrolling element to middle...
